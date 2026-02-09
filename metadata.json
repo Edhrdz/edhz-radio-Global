@@ -1,0 +1,8 @@
+
+{
+  "name": "EDHZ Radio - Global Online Radio Platform",
+  "description": "A high-performance radio streaming platform with AI-powered station discovery, real-time analytics for broadcasters, and seamless payment integration.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
