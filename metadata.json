@@ -1,0 +1,7 @@
+{
+  "name": "EdRadio Global Platform",
+  "description": "A high-performance radio hosting platform with AI integration and sleek UI/UX.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
