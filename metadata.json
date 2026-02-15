@@ -1,6 +1,6 @@
 {
-  "name": "EdRadio Global Platform",
-  "description": "A high-performance radio hosting platform with AI integration and sleek UI/UX.",
+  "name": "EdRadio Global Smart Platform",
+  "description": "Plataforma de radio con asistente de producción por voz impulsado por Gemini Live.",
   "requestFramePermissions": [
     "microphone"
   ]
