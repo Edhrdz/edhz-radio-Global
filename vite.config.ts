@@ -1,21 +1,10 @@
-
-import { defineConfig } from 'vite';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  build: {
-    target: 'esnext',
-    outDir: 'dist',
-    rollupOptions: {
-      // Indicamos a Rollup que estas librerías NO deben ser empaquetadas
-      // porque se resolverán en el navegador mediante el importmap
-      external: [
-        'react',
-        'react-dom',
-        'react-dom/client',
-        'framer-motion',
-        'lucide-react',
-        '@google/genai'
-      ]
-    }
+  plugins: [react()],
+  server: {
+    port: 3000,
+    open: true
   }
-});
+})
