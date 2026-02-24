@@ -1,7 +1,0 @@
-{
-  "name": "EdRadio Global Smart Platform",
-  "description": "Plataforma de radio con asistente de producción por voz impulsado por Gemini Live.",
-  "requestFramePermissions": [
-    "microphone"
-  ]
-}
